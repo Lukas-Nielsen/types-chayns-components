@@ -1,0 +1,22 @@
+{
+  "name": "@types/chayns-components",
+  "version": "0.0.1",
+  "description": "types for chayns-components",
+  "main": "index.d.ts",
+  "directories": {},
+  "scripts": {},
+  "author": "Lukas Nielsen",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Lukas-Nielsen/types-chayns-components.git"
+  },
+  "prettier": {
+    "useTabs": true,
+    "singleQuote": false,
+    "tabWidth": 4
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.29"
+  }
+}
