@@ -1,5 +1,5 @@
 {
-	"name": "types-chayns-components",
+	"name": "@types/chayns-components",
 	"version": "0.0.5",
 	"description": "types for chayns-components",
 	"main": "index.d.ts",
