@@ -18,20 +18,20 @@ export function SelectButton({
 	stopPropagation = false,
 }: {
 	onSelect?: (e: { buttonType: number; selection: object[] }) => void;
-	title: string;
-	description: string;
-	disabled: boolean;
-	label: string;
+	title?: string;
+	description?: string;
+	disabled?: boolean;
+	label?: string;
 	list: object[];
-	listKey: string;
-	listValue: string;
-	selectedFlag: string;
-	multiSelect: boolean;
-	quickFind: boolean;
+	listKey?: string;
+	listValue?: string;
+	selectedFlag?: string;
+	multiSelect?: boolean;
+	quickFind?: boolean;
 	selectAllButton?: string;
 	className?: string;
 	style?: React.CSSProperties;
-	showSelection: boolean | number;
-	showListSelection: boolean;
-	stopPropagation: boolean;
+	showSelection?: boolean | number;
+	showListSelection?: boolean;
+	stopPropagation?: boolean;
 }): JSX.Element;
