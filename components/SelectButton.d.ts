@@ -1,5 +1,3 @@
-import { CSSProperties } from "react";
-
 export function SelectButton({
 	onSelect,
 	title = "",
@@ -32,7 +30,7 @@ export function SelectButton({
 	quickFind: boolean;
 	selectAllButton?: string;
 	className?: string;
-	style?: CSSProperties;
+	style?: React.CSSProperties;
 	showSelection: boolean | number;
 	showListSelection: boolean;
 	stopPropagation: boolean;
