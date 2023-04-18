@@ -17,7 +17,7 @@ export function SelectButton({
 	showListSelection = true,
 	stopPropagation = false,
 }: {
-	onSelect?: (e: { buttonType: number; selection: object[] }) => void;
+	onSelect?: (e: { buttonType: number; selection: any[] }) => void;
 	title?: string;
 	description?: string;
 	disabled?: boolean;
