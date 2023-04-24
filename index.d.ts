@@ -4,3 +4,4 @@ export { Icon } from "./components/Icon";
 export { Input } from "./components/Input";
 export { SearchBox } from "./components/SearchBox";
 export { SelectButton } from "./components/SelectButton";
+export { PersonFinder } from "./components/PersonFinder";
