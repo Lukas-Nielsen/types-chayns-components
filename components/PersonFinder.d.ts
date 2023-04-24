@@ -36,7 +36,7 @@ export function PersonFinder({
 	locationId?: number;
 	reducerFunction?: Function;
 	// context? :	{ Provider: function, Consumer: object } 	PersonsContext 	;
-	onChange?: Function;
+	onChange?: (e: any) => void;
 	disableFriends?: boolean;
 	className?: string;
 	defaultValue?: Value | string;
