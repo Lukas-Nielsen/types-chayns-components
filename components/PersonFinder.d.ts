@@ -36,7 +36,7 @@ export function PersonFinder({
 	locationId?: number;
 	reducerFunction?: Function;
 	// context? :	{ Provider: function, Consumer: object } 	PersonsContext 	;
-	onChange?: (e: any) => void;
+	onChange?: (e: Value) => void;
 	disableFriends?: boolean;
 	className?: string;
 	defaultValue?: Value | string;
@@ -55,9 +55,15 @@ export function PersonFinder({
 }): JSX.Element;
 
 interface Value {
-	name: string;
-	firstName: string;
-	lastName: string;
-	siteId: string;
-	personId: string;
+	id?: number
+	imageUrl: string
+	name?: string
+	type: "GROUP" | "PERSON"
+	firstName?: string
+	fullName?: string
+	isFriend?: boolean
+	lastName?: string
+	personId?: string
+	userId?: number
+	verificationState?: boolean
 }
