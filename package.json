@@ -1,6 +1,6 @@
 {
 	"name": "@types/chayns-components",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "types for chayns-components",
 	"main": "index.d.ts",
 	"directories": {},

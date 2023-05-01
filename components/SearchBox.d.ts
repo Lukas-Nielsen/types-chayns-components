@@ -24,7 +24,7 @@ export function SearchBox({
 	hasOpenCloseIcon = false,
 	onBlur,
 }: {
-	onSelect?: Function;
+	onSelect?: (e: string) => void;
 	disabled?: boolean;
 	list?: object[] | string[] | number[];
 	listKey?: string;
