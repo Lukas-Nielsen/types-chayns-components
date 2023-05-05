@@ -55,10 +55,10 @@ export function PersonFinder({
 }): JSX.Element;
 
 interface Value {
-	id?: number
+	id?: number | string
 	imageUrl: string
 	name?: string
-	type: "GROUP" | "PERSON"
+	type: "GROUP" | "PERSON" | "SITE"
 	firstName?: string
 	fullName?: string
 	isFriend?: boolean
@@ -66,4 +66,6 @@ interface Value {
 	personId?: string
 	userId?: number
 	verificationState?: boolean
+	siteId?: string
+	locationId?: number
 }
