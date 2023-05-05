@@ -1,8 +1,9 @@
-export { Button } from "./components/Button";
-export { Accordion } from "./components/Accordion";
-export { Icon } from "./components/Icon";
-export { Input } from "./components/Input";
-export { SearchBox } from "./components/SearchBox";
-export { SelectButton } from "./components/SelectButton";
-export { PersonFinder } from "./components/PersonFinder";
-export { TextArea } from "./components/TextArea";
+export * from "./components/Button";
+export * from "./components/Accordion";
+export * from "./components/Icon";
+export * from "./components/Input";
+export * from "./components/SearchBox";
+export * from "./components/SelectButton";
+export * from "./components/PersonFinder";
+export * from "./components/TextArea";
+export * from "./components/Gallery";
