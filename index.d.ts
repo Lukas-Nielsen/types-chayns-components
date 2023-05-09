@@ -7,3 +7,4 @@ export * from "./components/SelectButton";
 export * from "./components/PersonFinder";
 export * from "./components/TextArea";
 export * from "./components/Gallery";
+export * from "./components/ContextMenu";
