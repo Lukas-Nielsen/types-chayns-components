@@ -6,7 +6,7 @@ export interface SelectButtonProps {
 	/**
 	 * A callback that is invoked when the selection has changed.
 	 */
-	onSelect?: (e: { buttonType: number; selection: object[] }) => void;
+	onSelect?: (e: { buttonType: number; selection: any[] }) => void;
 
 	/**
 	 * A string that will be shown as a title in the selection dialog.
