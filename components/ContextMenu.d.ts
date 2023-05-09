@@ -36,28 +36,7 @@ export interface ContextMenuProps {
 	/**
 	 * The action items inside of the context menu. Their shape should look like this: { className: <string>, onClick: <function>, text: <string>, icon: <string> }, stringName: <string>.
 	 */
-	items?: {
-		/**
-		 * A classname string that will be applied to the item
-		 */
-		className?: string;
-
-		/**
-		 * triggered when the item is clicked
-		 */
-		onClick: (e: any) => void;
-
-		/**
-		 * text for menu item
-		 */
-		text: string | ReactNode;
-		stringName?: string;
-
-		/**
-		 * icon for menu item
-		 */
-		icon?: string | object;
-	}[];
+	items?: ContextMenuItemProps[];
 
 	/**
 	 * This specifies where the menu will appear relative to the components provided in the children-prop. Possible values are: 0 for top left, 1 for bottom left, 2 for bottom right, 3 for top right, 4 for top center and 5 for bottom center.
@@ -138,4 +117,27 @@ export interface ContextMenuProps {
 	 * Adjust the distance of the arrow and the end of the children. This only applies if positionOnChildren is set to left (0) or right (2).
 	 */
 	arrowDistance?: number;
+}
+
+export interface ContextMenuItemProps {
+	/**
+	 * A classname string that will be applied to the item
+	 */
+	className?: string;
+
+	/**
+	 * triggered when the item is clicked
+	 */
+	onClick: (e: any) => void;
+
+	/**
+	 * text for menu item
+	 */
+	text: string | ReactNode;
+	stringName?: string;
+
+	/**
+	 * icon for menu item
+	 */
+	icon?: string | object;
 }
