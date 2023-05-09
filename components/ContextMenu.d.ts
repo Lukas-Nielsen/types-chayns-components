@@ -37,11 +37,11 @@ export interface ContextMenuProps {
 	 * The action items inside of the context menu. Their shape should look like this: { className: <string>, onClick: <function>, text: <string>, icon: <string> }, stringName: <string>.
 	 */
 	items?: {
-		className: string;
-		onClick: (e: any) => void;
-		text: string | ReactNode;
-		stringName: string;
-		icon: string | Object | ReactNode;
+		className?: string;
+		onClick?: (e: any) => void;
+		text?: string | ReactNode;
+		stringName?: string;
+		icon?: string | Object | ReactNode;
 	}[];
 
 	/**
