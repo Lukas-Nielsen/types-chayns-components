@@ -8,3 +8,4 @@ export * from "./components/PersonFinder";
 export * from "./components/TextArea";
 export * from "./components/Gallery";
 export * from "./components/ContextMenu";
+export * from "./components/Badge";
