@@ -1,5 +1,8 @@
 import React, { ReactNode } from "react";
 
+/**
+ * Accordions are collapsible sections that are toggled by interacting with a permanently visible header.
+ */
 export class Accordion extends React.Component<AccordionPorps> {}
 
 export interface AccordionPorps {

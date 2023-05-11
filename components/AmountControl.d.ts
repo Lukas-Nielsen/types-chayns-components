@@ -1,5 +1,8 @@
 import React from "react";
 
+/**
+ * The AmountControl is a three-segment control used to increase or decrease an incremental value.
+ */
 export class AmountControl extends React.Component<AmountControlProps> {}
 
 export interface AmountControlProps {

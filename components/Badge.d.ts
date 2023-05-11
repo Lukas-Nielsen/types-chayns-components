@@ -1,5 +1,8 @@
 import React, { ReactNode } from "react";
 
+/**
+ * Badges are small, circular containers used to decorate other components with glancable information.
+ */
 export class Badge extends React.Component<BadgeProps> {}
 
 export interface BadgeProps {
@@ -21,5 +24,5 @@ export interface BadgeProps {
 	/**
 	 * Retrieves the ref to the Badge <div>-element.
 	 */
-	badgeRef?: (e: any) => void;
+	badgeRef?: (e: any) => any;
 }

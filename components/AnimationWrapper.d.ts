@@ -1,5 +1,8 @@
 import React, { ReactNode } from "react";
 
+/**
+ * The AnimationWrapper provides an eye-catching initial animation to its children.
+ */
 export class AnimationWrapper extends React.Component<AnimationWrapperProps> {}
 
 export interface AnimationWrapperProps {
