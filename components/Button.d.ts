@@ -1,5 +1,8 @@
 import React, { MouseEventHandler, ReactNode } from "react";
 
+/**
+ * Buttons initiate actions, can include a title or an icon and come with a set of predefined styles.
+ */
 export class Button extends React.Component<ButtonProps> {}
 
 export interface ButtonProps {
