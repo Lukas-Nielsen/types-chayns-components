@@ -1,5 +1,8 @@
 import React, { ReactNode } from "react";
 
+/**
+ * Gives people access to additional functionality related to onscreen items without cluttering the interface.
+ */
 export class ContextMenu extends React.Component<ContextMenuProps> {
 	/**
 	 * open the context menu
