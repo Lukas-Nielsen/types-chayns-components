@@ -6,6 +6,7 @@ export * from "./components/Bubble";
 export * from "./components/Button";
 export * from "./components/Calendar";
 export * from "./components/Checkbox";
+export * from "./components/ColorPicker";
 export * from "./components/ContextMenu";
 export * from "./components/Gallery";
 export * from "./components/Icon";
