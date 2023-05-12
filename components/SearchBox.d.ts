@@ -1,5 +1,8 @@
 import React, { CSSProperties, ReactNode } from "react";
 
+/**
+ * An autocomplete input to search through a list of entries.
+ */
 export class SearchBox extends React.Component<SearchBoxProps> {}
 
 export interface SearchBoxProps {

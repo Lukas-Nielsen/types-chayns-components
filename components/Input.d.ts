@@ -1,5 +1,8 @@
 import React, { HTMLInputTypeAttribute, ReactNode } from "react";
 
+/**
+ * A text input that can be validated and decorated with different designs.
+ */
 export class Input extends React.Component<InputProps> {}
 
 export interface InputProps {

@@ -1,5 +1,9 @@
 import React from "react";
 
+
+/**
+ * A choose button that opens a selection dialog when clicked.
+ */
 export class SelectButton extends React.Component<SelectButtonProps> {}
 
 export interface SelectButtonProps {

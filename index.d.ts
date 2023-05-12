@@ -22,4 +22,5 @@ export * from "./components/Input";
 export * from "./components/PersonFinder";
 export * from "./components/SearchBox";
 export * from "./components/SelectButton";
+export * from "./components/TagInput";
 export * from "./components/TextArea";

@@ -1,5 +1,8 @@
 import React from "react";
 
+/**
+ * A multiline text input that can automatically grow with its content.
+ */
 export class TextArea extends React.Component<TextAreaProps> {}
 
 export interface TextAreaProps {
