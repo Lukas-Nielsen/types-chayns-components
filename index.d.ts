@@ -26,3 +26,4 @@ export * from "./components/TagInput";
 export * from "./components/TextArea";
 export * from "./components/TextString";
 export * from "./components/Tooltip";
+export * from "./components/VerificationIcon";
