@@ -11,6 +11,7 @@ export * from "./components/ColorScheme";
 export * from "./components/ComboBox";
 export * from "./components/ContextMenu";
 export * from "./components/DateInfo";
+export * from "./components/EmojiInput";
 export * from "./components/Gallery";
 export * from "./components/Icon";
 export * from "./components/Input";

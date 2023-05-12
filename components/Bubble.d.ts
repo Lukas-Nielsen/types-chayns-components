@@ -24,7 +24,7 @@ export interface BubbleProps {
 	/**
 	 * This specifies where the bubble will appear relative to its coordinates. Possible values are: 0 for top left, 1 for bottom left, 2 for bottom right, 3 for top right, 4 for top center and 5 for bottom center.
 	 */
-	position?: 0 | 1 | 2 | 3 | 4 | 5;
+	position?: Bubble.Position;
 
 	/**
 	 * A DOM element into which the Bubble-component will render.
@@ -50,4 +50,15 @@ export interface BubbleProps {
 	 * A React style object that will be supplied to the outer most element of the Bubble.
 	 */
 	topDivStyle?: React.CSSProperties;
+}
+
+export namespace Bubble {
+	export enum Position {
+		TOP_LEFT = 0,
+		BOTTOM_LEFT = 1,
+		BOTTOM_RIGHT = 2,
+		TOP_RIGHT = 3,
+		TOP_CENTER = 4,
+		BOTTOM_CENTER = 5,
+	}
 }

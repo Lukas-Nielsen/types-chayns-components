@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import { Bubble } from "./Bubble";
 
 /**
  * Lets a user choose a color for text, shapes, marking tools, and other elements.
@@ -19,7 +20,7 @@ export interface ColorPickerProps {
 	/**
 	 * The bubble position. The possible values are listed under the Bubble-component.
 	 */
-	bubblePosition?: 0 | 1 | 2 | 3 | 4 | 5;
+	bubblePosition?: Bubble.Position;
 
 	/**
 	 * Will be called when changing the color.

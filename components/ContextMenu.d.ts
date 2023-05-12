@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import { Bubble } from "./Bubble";
 
 /**
  * Gives people access to additional functionality related to onscreen items without cluttering the interface.
@@ -44,7 +45,7 @@ export interface ContextMenuProps {
 	/**
 	 * This specifies where the menu will appear relative to the components provided in the children-prop. Possible values are: 0 for top left, 1 for bottom left, 2 for bottom right, 3 for top right, 4 for top center and 5 for bottom center.
 	 */
-	position?: 0 | 1 | 2 | 3 | 4 | 5;
+	position?: Bubble.Position;
 
 	/**
 	 * The position of the arrow relative to the children. Possible values are 0 for left, 1 for center and 2 for right.
