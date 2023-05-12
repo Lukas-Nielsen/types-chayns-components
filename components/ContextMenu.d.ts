@@ -40,7 +40,7 @@ export interface ContextMenuProps {
 	/**
 	 * The action items inside of the context menu. Their shape should look like this: { className: <string>, onClick: <function>, text: <string>, icon: <string> }, stringName: <string>.
 	 */
-	items?: ContextMenuItemProps[];
+	items?: ContextMenu.ItemProps[];
 
 	/**
 	 * This specifies where the menu will appear relative to the components provided in the children-prop. Possible values are: 0 for top left, 1 for bottom left, 2 for bottom right, 3 for top right, 4 for top center and 5 for bottom center.
@@ -123,25 +123,27 @@ export interface ContextMenuProps {
 	arrowDistance?: number;
 }
 
-export interface ContextMenuItemProps {
-	/**
-	 * A classname string that will be applied to the item
-	 */
-	className?: string;
+export namespace ContextMenu {
+	export interface ItemProps {
+		/**
+		 * A classname string that will be applied to the item
+		 */
+		className?: string;
 
-	/**
-	 * triggered when the item is clicked
-	 */
-	onClick: (e: any) => void;
+		/**
+		 * triggered when the item is clicked
+		 */
+		onClick: (e: any) => void;
 
-	/**
-	 * text for menu item
-	 */
-	text: string | ReactNode;
-	stringName?: string;
+		/**
+		 * text for menu item
+		 */
+		text: string | ReactNode;
+		stringName?: string;
 
-	/**
-	 * icon for menu item
-	 */
-	icon?: string | object;
+		/**
+		 * icon for menu item
+		 */
+		icon?: string | object;
+	}
 }
