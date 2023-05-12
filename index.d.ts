@@ -13,6 +13,7 @@ export * from "./components/ContextMenu";
 export * from "./components/DateInfo";
 export * from "./components/EmojiInput";
 export * from "./components/ExpandableContent";
+export * from "./components/FileInput";
 export * from "./components/Gallery";
 export * from "./components/Icon";
 export * from "./components/Input";
