@@ -1,5 +1,8 @@
 import React from "react";
 
+/**
+ * An image gallery that displays up to four images by default. Also supports reordering and deletion of images and blurred image previews for images loaded from tsimg.cloud.
+ */
 export class Gallery extends React.Component<GalleryProps> {}
 
 export interface GalleryProps {

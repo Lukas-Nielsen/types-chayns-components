@@ -1,5 +1,8 @@
 import React from "react";
 
+/**
+ * Displays a FontAwesome icon.
+ */
 export class Icon extends React.Component<IconProps> {}
 
 export interface IconProps {
