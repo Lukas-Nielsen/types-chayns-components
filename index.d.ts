@@ -24,3 +24,4 @@ export * from "./components/SearchBox";
 export * from "./components/SelectButton";
 export * from "./components/TagInput";
 export * from "./components/TextArea";
+export * from "./components/TextString";
