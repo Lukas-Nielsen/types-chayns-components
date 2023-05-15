@@ -19,6 +19,7 @@ export * from "./components/FormattedInput";
 export * from "./components/Gallery";
 export * from "./components/Icon";
 export * from "./components/Input";
+export * from "./components/OpeningTimes";
 export * from "./components/PersonFinder";
 export * from "./components/SearchBox";
 export * from "./components/SelectButton";
