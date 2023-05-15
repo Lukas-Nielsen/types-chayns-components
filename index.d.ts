@@ -21,6 +21,7 @@ export * from "./components/Icon";
 export * from "./components/Input";
 export * from "./components/OpeningTimes";
 export * from "./components/PersonFinder";
+export * from "./components/PositionInput";
 export * from "./components/SearchBox";
 export * from "./components/SelectButton";
 export * from "./components/TagInput";
