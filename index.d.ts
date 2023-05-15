@@ -26,6 +26,7 @@ export * from "./components/ProgressBar";
 export * from "./components/RadioButton";
 export * from "./components/SearchBox";
 export * from "./components/SelectButton";
+export * from "./components/Slider";
 export * from "./components/SmallWaitCursor";
 export * from "./components/TagInput";
 export * from "./components/TextArea";
